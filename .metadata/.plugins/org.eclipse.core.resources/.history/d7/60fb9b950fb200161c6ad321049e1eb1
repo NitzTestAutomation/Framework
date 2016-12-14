@@ -1,0 +1,27 @@
+package Background_Logic.API.Apps.TescoGroceries.ProductListingPageActivity;
+
+import Background_Logic.API.Apps.TescoGroceries.ObjectRepository.OR;
+import Background_Logic.Core.UIObjects;
+import Background_Logic.Core.UISelector;
+
+public class ProductListingPageUiObjcets {
+
+private static UIObjects Add_Button,
+						ProductInfo_div;
+	
+	public UIObjects addButton(){
+		
+		if(Add_Button==null) Add_Button=new UISelector().Xpath(OR.ProductListingPageAdd_Button).makeUiObject();
+		return Add_Button;
+		
+	}
+	
+	
+public UIObjects productInfo(){
+		
+		if(ProductInfo_div==null) ProductInfo_div=new UISelector().Xpath(OR.ProductListingPageProductInfo_div).makeUiObject();
+		return ProductInfo_div;
+		
+	}
+	
+}

@@ -1,0 +1,14 @@
+package Tests;
+
+import org.junit.runners.Suite;
+
+public class TestPrimer {
+
+@RunWith(Suite.class)
+@Suite.SuiteClasses({
+		Sanity.class
+	
+})
+
+
+}

@@ -1,0 +1,14 @@
+package Tests;
+
+import Background_Logic.API.Android.Android;
+import Background_Logic.DriverManager.DriverManager;
+import Background_Logic.DriverManager.TestManager;
+
+public class Sanity extends TestManager{
+
+
+
+
+
+
+}

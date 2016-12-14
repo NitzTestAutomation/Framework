@@ -1,0 +1,52 @@
+package Background_Logic.API.Apps.TescoGroceries.ProductListingPageActivity;
+
+import java.util.NoSuchElementException;
+
+import Background_Logic.Core.MyLogger;
+import Background_Logic.Core.UIObjects;
+import Background_Logic.Core.UISelector;
+
+public class ProductListingPage {
+	
+	
+	public ProductListingPageUiObjects uiobjects=new ProductListingPageUiObjects();
+	public String output;
+	
+	public ProductListingPage tapAddButton(){
+		
+		try{
+			
+			MyLogger.log.debug("Clicking on the Add button on the Product Listing Page..");
+			uiobjects.addButton().click();
+			return this;
+			
+		}catch(NoSuchElementException e){
+			 
+			throw new AssertionError("Element Absent or Blocked..");
+			
+		}
+		
+		
+	}
+	
+	
+public String getTextFromProductInfoDiv(){
+		
+		try{
+			
+			MyLogger.log.debug("Clicking on the Add button on the Product Listing Page..");
+			 output=uiobjects.productInfo().getText();
+			 return output;
+			
+		}catch(NoSuchElementException e){
+			 
+			throw new AssertionError("Element Absent or Blocked..");
+			
+		}
+		
+		
+	}
+
+public static void 
+
+}

@@ -1,0 +1,23 @@
+package Tests;
+
+import org.junit.BeforeClass;
+
+import Background_Logic.API.Android.Android;
+import Background_Logic.API.Apps.TescoGroceries.TescoGroceries;
+import Background_Logic.DriverManager.DriverManager;
+import Background_Logic.DriverManager.TestManager;
+
+public class Sanity extends TestManager{
+
+private static TescoGroceries groceries=Android.app.groceries;
+
+
+@BeforeClass
+public static void beforeClass(){
+	
+	
+	
+	
+}
+
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+<fullyQualifiedTypeName name="java.sql.Time"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.remote.DesiredCapabilities"/>
+<fullyQualifiedTypeName name="io.appium.java_client.android.AndroidDriver"/>
+<fullyQualifiedTypeName name="java.net.URL"/>
+<fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
+<fullyQualifiedTypeName name="Background_Logic.Core.ADB"/>
+<fullyQualifiedTypeName name="Background_Logic.API.Apps.TescoGroceries.TescoGroceries"/>
+<fullyQualifiedTypeName name="Background_Logic.API.Apps.Apps"/>
+<fullyQualifiedTypeName name="Background_Logic.API.Interface.Application"/>
+<fullyQualifiedTypeName name="Background_Logic.API.Apps.TescoGroceries.LaunchScreen.LaunchScreen"/>
+<fullyQualifiedTypeName name="Background_Logic.API.Apps.TescoGroceries.Signin.Signin"/>
+<fullyQualifiedTypeName name="Background_Logic.API.Apps.TescoGroceries.RegisterStep1.RegisterStep1"/>
+<fullyQualifiedTypeName name="Background_Logic.API.Apps.TescoGroceries.ObjectRepository.ObjectRepository"/>
+<fullyQualifiedTypeName name="Background_Logic.API.Apps.TescoGroceries.HomePage.HomePage"/>
+<fullyQualifiedTypeName name="org.apache.log4j.Level"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.interactions.Actions"/>
+<fullyQualifiedTypeName name="Background_Logic.API.Apps.TescoGroceries.BurgerMenu.BurgerMenu"/>
+<fullyQualifiedTypeName name="Background_Logic.API.Apps.TescoGroceries.GroceriesCategory.GroceriesCategory"/>
+<fullyQualifiedTypeName name="Background_Logic.API.Interface.Activity"/>
+<fullyQualifiedTypeName name="Background_Logic.API.Android.Android"/>
+<fullyQualifiedTypeName name="Background_Logic.API.Apps.TescoGroceries.FreshFoodCategory.FreshFoodCategory"/>
+<fullyQualifiedTypeName name="Background_Logic.Core.UIObjects"/>
+<fullyQualifiedTypeName name="Background_Logic.Core.UISelector"/>
+<fullyQualifiedTypeName name="Background_Logic.API.Apps.TescoGroceries.ObjectRepository.OR"/>
+<fullyQualifiedTypeName name="java.util.NoSuchElementException"/>
+<fullyQualifiedTypeName name="Background_Logic.Core.MyLogger"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.NoSuchElementException"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
+</qualifiedTypeNameHistroy>

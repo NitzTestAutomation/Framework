@@ -1,0 +1,29 @@
+package Test;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import io.appium.java_client.android.AndroidDriver;
+
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+import Background_Logic.Core.UIObjects;
+import Background_Logic.Core.UISelector;
+import Background_Logic.DriverManager.DriverManager;
+
+public class Runner {
+
+public static void main(String args[]) throws MalformedURLException{
+	
+	
+	DriverManager.createDriver();
+	UIObjects signinbutton= new UISelector().Xpath("//div[@class='lAction']/a[contains(text(),'Sign in')]").makeUiObject().waitToAppear(180);
+	
+	
+	
+}
+
+
+
+
+}

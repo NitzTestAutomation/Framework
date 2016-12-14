@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Background_Logic.Core.TestINfo&apos; to &apos;TestInfo&apos;&#x0D;&#x0A;- Original project: &apos;Automation&apos;&#x0D;&#x0A;- Original element: &apos;Background_Logic.Core.TestINfo&apos;&#x0D;&#x0A;- Renamed element: &apos;Background_Logic.Core.TestInfo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;TestINfo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Background_Logic.Core{TestINfo.java[TestINfo" matchStrategy="1" name="TestInfo" qualified="false" references="true" similarDeclarations="false" stamp="1480484230987" textual="false" version="1.0"/>
+</session>

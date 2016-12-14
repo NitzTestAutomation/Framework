@@ -1,0 +1,11 @@
+package Background_Logic.API.Apps.TescoGroceries.RegisterStep1;
+
+public class RegisterStep1 {
+
+
+public RegisterStep1Uiobjects uiobject=new RegisterStep1Uiobjects();
+
+
+
+
+}

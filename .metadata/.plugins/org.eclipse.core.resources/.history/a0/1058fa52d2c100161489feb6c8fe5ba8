@@ -1,0 +1,84 @@
+package Background_Logic.API.Apps.TescoGroceries.Signin;
+
+import org.openqa.selenium.NoSuchElementException;
+
+import Background_Logic.API.Android.Android;
+import Background_Logic.API.Interface.Activity;
+import Background_Logic.Core.MyLogger;
+
+public class Signin implements Activity{
+
+public SigninUiobjects uiobject=new SigninUiobjects();
+public void sendTextToEmailTextFeild(){
+	
+	
+	try{
+		
+		MyLogger.log.debug("Sending text to the email address text feild...");
+		uiobject.emailAddressTextFeild().sendText("leela.k.elli@in.tesco.com");	
+	
+	}catch(NoSuchElementException e){
+		
+		throw new AssertionError("Element absent or blocked");
+		
+	}
+	
+	 
+}
+
+public void sendTextToPasswordTextFeild(){
+	
+	
+	try{
+		
+		MyLogger.log.debug("Sending text to the Password text feild...");
+		uiobject.password_textfeild().sendText("Password1");	
+	
+	}catch(NoSuchElementException e){
+		
+		throw new AssertionError("Element absent or blocked");
+		
+	}
+	
+	 
+}
+
+public void tapSignInButton(){
+	
+	
+	try{
+		
+		MyLogger.log.debug("Clicking text to the Password text feild...");
+		uiobject.signin_button().click();	
+	
+	}catch(NoSuchElementException e){
+		
+		throw new AssertionError("Element absent or blocked");
+		
+	}
+	
+	 
+}
+
+@Override
+public Signin waitToLoad() {
+	
+	try{
+		
+		MyLogger.log.debug("Waiting for the Sigin activity to appear");
+		Android.app.groceries.signin.uiobject.emailAddressTextFeild().waitToAppear(120);
+		return Android.app.groceries.signin;
+	}
+	
+	catch(AssertionError e){
+		
+		throw new AssertionError("");
+		
+	}
+
+}
+
+
+
+
+}
